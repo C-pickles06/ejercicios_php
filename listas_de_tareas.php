@@ -14,8 +14,6 @@ if (isset($_POST['tarea'])) {
 </form>
 <ul>
 <?php 
-if(isset($_SESSION['tarea'])){
-
-
+if(isset($_SESSION['tarea']))
 ?>
-<?= "<li>{$a}</li>"?>}</ul>
+<?= "<li>{$a}</li>"?></ul>
